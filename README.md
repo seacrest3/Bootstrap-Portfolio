@@ -5,7 +5,7 @@ Unit 3 Challenge: Code Bootstrap Portfolio
 
 A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. A web developer who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies.
 
-In this project, a website which showcases a portfolio of work to be built using the Bootstrap CSS Framework to design and layout the contents of 'Work', 'Skills', 'About Me' and 'Contact'.
+In this project, a website which showcases a portfolio of work is built using the Bootstrap CSS Framework to design and layout the contents of 'Work', 'Skills', 'About Me' and 'Contact'.
 
 ### User Story
 
