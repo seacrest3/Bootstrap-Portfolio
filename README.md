@@ -83,12 +83,24 @@ Here are the critical requirements necessary to develop a portfolio that satisfi
 
 The following image shows the web application's appearance and functionality:
 
-![Portfolio page](images/portfolio-page.png)
+![Portfolio page](images/bootstrap-portfolio-mockup.png)
 
 ### Review
 
 TA, a Web Developer, reviews the code, providing feedback on errors and making sure that all of the acceptance criteria have been met.
 
-* [The URL of the deployed application.](https://seacrest3.github.io/portfolio-page/)
+* [The URL of the deployed application.](https://seacrest3.github.io/Bootstrap-Portfolio/)
 
-* [The URL of the GitHub repository.](https://github.com/seacrest3/portfolio-page.git)
+* [The URL of the GitHub repository.](https://github.com/seacrest3/Bootstrap-Portfolio.git)
+
+### Helpful Resources
+
+- [Bootstrap Documentation](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+
+- [Responsive Web Design - How to Create Media Queries](https://www.youtube.com/watch?v=5xzaGSYd7jM)
+
+- [Media Queries 101 by CSS Tricks](https://css-tricks.com/css-media-queries/)
+
+- [Media Query Documentation](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
+
+- [Github Pages Guide](https://pages.github.com/)
