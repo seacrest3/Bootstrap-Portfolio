@@ -1,4 +1,6 @@
-<!-- Unit 3 Challenge: Code Bootstrap Portfolio -->
+<!-- Unit 3 Challenge: Code Bootstrap Portfolio 
+In this project, a webpage which showcases a portfolio of work is built using the Bootstrap CSS Framework to design and layout 
+the contents including a navigation bar and the sections of 'Work', 'Skills', 'About Me' and 'Contact' -->
 
 <!DOCTYPE html>
 <html lang="en-gb">
@@ -16,7 +18,8 @@
 </head>
 
 <body>
-  <!-- Navigation bar -->
+  <!-- A navigation bar using bootstrap's navbar at the top include hyperlinks to the respective sections of the portfolio.
+  All hyperlinks have color effect upon hover -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
     <h4>Bootstrap Portfolio</h4>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -42,8 +45,8 @@
   </nav>
   <!-- End navigation bar -->
 
-  <!-- Hero Section, Jumbotron -->
-  <div class="jumbotron">
+  <!-- Hero Section, Jumbotron featuring a personal picture, name, and other information -->
+  <section class="jumbotron">
     <div class="container">
       <div class="row">
         <div class="col-lg-5 col-md-12 col-sm-12">
@@ -58,13 +61,14 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
   <!-- End Hero Section, Jumbotron -->
 
-  <!-- Work Section -->
-  <div id="work" class="container-fluid">
+  <!-- Work Section displays the work in grid using bootstrap cards for each project with a brief overview of the work 
+  and button linked to the project webpage. All button and images display a box shadow upon hover -->
+  <section id="work" class="container-fluid">
     <div class="row">
-      <!-- Top big card with button linked to webpage-->
+      <!-- Top big card with button linked to project webpage -->
       <div class="cardContainer col-lg-8 col-md-6 col-sm-12">
         <h2>Work</h2>
         <div class="card">
@@ -80,7 +84,7 @@
     <!-- End top big card -->
 
     <div class="row">
-      <!-- Card 1 with button linked to webpage-->
+      <!-- Card 1 with button linked to project webpage -->
       <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
         <div class="card">
           <img src="images/Horiseon.png" class="card-img-top" alt="Horiseon">
@@ -93,7 +97,7 @@
       </div>
       <!-- End card 1 -->
 
-      <!-- Card 2 with button linked to webpage-->
+      <!-- Card 2 with button linked to project webpage -->
       <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
         <div class="card">
           <img src="images/jakeseatery.png" class="card-img-top" alt="Jake's Eatery">
@@ -108,7 +112,7 @@
       <!-- End card 2 -->
      
     <div class="row">
-      <!-- Card 3 with button linked to webpage-->
+      <!-- Card 3 with button linked to project webpage -->
       <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
         <div class="card">
           <img src="images/furniture.png" class="card-img-top" alt="Furniture">
@@ -121,7 +125,7 @@
       </div>
       <!-- End card 3 -->
 
-      <!-- Card 4 with button linked to webpage-->
+      <!-- Card 4 with button linked to project webpage -->
       <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
         <div class="card">
           <img src="images/landing-page.png" class="card-img-top" alt="Landing page">
@@ -136,7 +140,7 @@
     </div>
 
     <div class="row">
-      <!-- Bottom big card with button linked to webpage-->
+      <!-- Bottom big card with button linked to project webpage -->
       <div class="cardContainer col-lg-8 col-md-6 col-sm-12">
         <div class="card">
           <img src="images/rock-nation.png" class="card-img-top" alt="Rock Nation">
@@ -149,11 +153,11 @@
       </div>
     </div>  
     <!-- End bottom big card -->
-  </div>
+  </Section>
   <!-- End Work Section -->
 
-  <!-- Skills Section -->
-  <div id="skills" class="container-fluid">
+  <!-- Skills section uses un-ordered list to list out the skills expected to learn from the bootcamp -->
+  <section id="skills" class="container-fluid">
     <!--Skills Text-->
      <h2>Skills</h2>
      <h3>Skills expected to learn from the bootcamp:</h3>
@@ -169,23 +173,24 @@
       <li>Prepare a portfolio of front-end development work.</li>
      </ul>
 
-    <!-- Skills Mockup -->
+    <!-- Skills Mockup displays mockup image of the project webpages with button link to the respective GitHub repository.
+    All button and images display a box shadow upon hover. Each mockup image can be clicked for the display of a magnified image for easy viewing -->
     <div class="row valueProp mockupContainer content">
-      <!-- Mockup 1 with button linked to Github-->
+      <!-- Mockup 1 with button linked to Github repository -->
       <div class="imageContainer col-lg-4 col-md-4 col-sm-12">
         <a href="images/travel-california-mockup.png" target="_blank"><img src="images/travel-california-mockup.png" alt="Travel California"></a>
         <a href="https://github.com/seacrest3/travel-california.git" target="_blank" class="btn btn-primary">GitHub Repository</a>
       </div>
      <!-- End Mockup 1 -->
 
-     <!-- Mockup 2 with button linked to Github-->
+     <!-- Mockup 2 with button linked to Github repository-->
       <div class="imageContainer col-lg-4 col-md-4 col-sm-12">
         <a href="images/horiseon-webpage-mock-up.png" target="_blank"><img src="images/horiseon-webpage-mock-up.png" alt="Horiseon"></a>
         <a href="https://github.com/seacrest3/horiseon-webpage.git" target="_blank" class="btn btn-primary">GitHub Repository</a>
       </div>
      <!-- End Mockup 2 -->
 
-     <!-- Mockup 3 with button linked to Github-->
+     <!-- Mockup 3 with button linked to Github repository -->
       <div class="imageContainer col-lg-4 col-md-4 col-sm-12">
         <a href="images/jakes-eatery-webpage-mock-up.png" target="_blank"><img src="images/jakes-eatery-webpage-mock-up.png" alt="Jake's Eatery"></a>
         <a href="https://github.com/seacrest3/jakes-eatery.git" target="_blank" class="btn btn-primary">GitHub Repository</a>
@@ -194,32 +199,32 @@
     </div>
 
     <div class="row valueProp mockupContainer content">
-      <!-- Mockup 4 with button linked to Github-->
+      <!-- Mockup 4 with button linked to Github repository -->
       <div class="imageContainer col-lg-4 col-md-4 col-sm-12">
         <a href="images/furniture-mockup.png" target="_blank"><img src="images/furniture-mockup.png" alt="Funiture"></a>
         <a href="https://github.com/seacrest3/furniture.git" target="_blank" class="btn btn-primary">GitHub Repository</a>
       </div>
       <!-- End Mockup 4 -->
 
-      <!-- Mockup 5 with button linked to Github-->
+      <!-- Mockup 5 with button linked to Github repository-->
       <div class="imageContainer col-lg-4 col-md-4 col-sm-12">
         <a href="images/landing-page-mock-up.png" target="_blank"><img src="images/landing-page-mock-up.png" alt="Landing page"></a>
         <a href="https://github.com/vighimre87/LandingPage.git" target="_blank" class="btn btn-primary">GitHub Repository</a>
       </div>
      <!-- End Mockup 5 -->
 
-     <!-- Mockup 6 with button linked to Github-->
+     <!-- Mockup 6 with button linked to Github repository -->
       <div class="imageContainer col-lg-4 col-md-4 col-sm-12">
         <a href="images/rock-nation-webpage-mockup.png" target="_blank"><img src="images/rock-nation-webpage-mockup.png" alt="Rock Nation"></a>
         <a href="https://github.com/seacrest3/rock-nation.git" target="_blank" class="btn btn-primary">GitHub Repository</a>
       </div>
      <!-- End Mockup 6 -->
    </div>
-  </div>
+  </section>
   <!-- End Skills Section -->
 
-  <!-- About Me Section -->
-  <div id="about" class="container-fluid">
+  <!-- About Me section gives a couple of paragraphs of self introduction -->
+  <article id="about" class="container-fluid">
     <h2>About Me</h2>
     <!-- About Me Text -->
     <div class="col-12">
@@ -227,15 +232,16 @@
       <p>I am a dedicated and organized web developer. I have good interpersonal skills, am an excellent team worker and am keen and very willing to learn and develop new skills. I am reliable and dependable and often seek new responsibilities within a wide range of employment areas. I have an active and dynamic approach to work and getting things done. I am determined and decisive. I identify and develop opportunities.</p>
       <p>I'm a friendly and honest and person, I work well in a team but also on my own as I like to set myself goals which I will achieve, I have good listening and communication skills. I have a creative mind and am always up for new challenges. I am well organized and always plan ahead to make sure I manage my time well.</p>
     </div>
-  </div>
-  <!-- End About Me Section -->
+  </article>
+  <!-- End About Me section -->
 
-  <!-- Contact Section -->
+  <!-- Contact section -->
   <div id="contactHeading">
     <h2>Contact</h2>
   </div>
 
-  <!-- Footer -->
+  <!-- Footer have different media contact logo which display shadow effect and text of contact information upon hover,
+  and linked to developer's phone call, e-mail, twitter and facebook as well as GitHub repository -->
    <footer id="contact" class="row">
       <div class="col-lg-1 col-md-2 col-sm-2">
         <a href="tel:+441869168168" title="+44 1869 168168" target="_blank"><img class="contactImage" src="images/phone.png"></a>
@@ -254,6 +260,7 @@
       </div>
   </footer>
   <!-- End footer -->
+  <!-- End Contact section -->
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

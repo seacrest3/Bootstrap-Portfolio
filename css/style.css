@@ -55,6 +55,11 @@ a:link {
   color: white !important;
 }
 
+/* Nvigation hyperlinks have a hover effect. */
+.customNav a:hover {
+  color: yellowgreen !important;
+}
+
 /* Hero Section, Jumbotron  */
 .jumbotron {
   background-color: #16181b;
@@ -75,6 +80,7 @@ a:link {
   margin-top: 15%;
 }
 
+/* Personal image in Hero section displays a box shadow upon hover. */
 .jumbotron img:hover {
   border: solid 2px;
   border-color: white;
@@ -93,8 +99,9 @@ a:link {
   object-fit: cover;
 }
 
-/* Work linked to webpage */
+/* Work section uses cards to display project work*/
 #work h2 {
+  color: white;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -106,6 +113,7 @@ a:link {
   margin: 0 auto;
 }
 
+/* Card images in Work section display a box shadow upon hover. */
 .card:hover {
   border: solid 2px;
   border-color: black;
@@ -145,6 +153,7 @@ a:link {
   justify-items: center;
 }
 
+/* Button in Work section and Skills section display a box shadow upon hover. */
 .btn:hover {
   -o-transition:.5s;
   -ms-transition:.5s;
@@ -154,7 +163,7 @@ a:link {
   box-shadow: 10px 10px 5px #888888;
 }
 
-/* Skills linked to webpage mockup*/
+/* Skills section */
 #skills {
   color: white;
   background: url("../images/online-reputation-management.jpg");
@@ -171,6 +180,7 @@ a:link {
   font-size: large;
 }
 
+/* Images in Skills section display a box shadow upon hover. */
 #skills img:hover {
   border: solid 2px;
   border-color: black;
@@ -191,7 +201,7 @@ padding-top:30px;
   padding-top: 50px;
 }
 
-/* About Me */
+/* About Me section */
 #about {
   color: white;
   background-color: #16181b;
@@ -203,7 +213,7 @@ padding-top:30px;
   padding-top:30px;
 }
 
-/* Contact */
+/* Contact section */
 #contact {
   display: flex;
   flex-direction: row;
@@ -211,6 +221,7 @@ padding-top:30px;
   align-items: center;
 }
 
+/* Media logo display a box shadow upon hover. */
 #contact img:hover {
   -o-transition:.5s;
   -ms-transition:.5s;
